@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+      <template id="navbar_spark_logo" inherit_id="web.webclient_bootstrap">
+            <xpath expr="//div[@class='navbar-header']" position="inside">
+                <ul class="ul_spark_logo">
+                    <li>
+                        <img src="/sparkit_sparkit_aca_logo/static/src/img/sparkacalogosmall.png"/>
+                    </li>
+                </ul>
+            </xpath>
+        </template>
+
+      </data>
+  </openerp>
